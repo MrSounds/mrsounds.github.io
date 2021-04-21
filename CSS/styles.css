@@ -47,6 +47,10 @@ p {
   padding: 15px 35px 30px 35px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container-fluid {
   padding: 1% 7%;
   position: relative;
