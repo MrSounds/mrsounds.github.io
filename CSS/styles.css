@@ -62,9 +62,14 @@ html {
   width: 100%;
 }
 
-.om-meg {
-  background-color: #ffd57e;
-  height: 650px;
+.om-meg-innhold {
+  width: 65%;
+}
+
+@media (max-width: 845px) {
+  .om-meg-innhold{
+    width: 100%
+  }
 }
 
 .profilePicture {
