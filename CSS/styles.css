@@ -81,16 +81,6 @@ html {
   }
 }
 
-@media (max-width: 552px) {
-  .profilePicture {
-    z-index: 1;
-    opacity: 0.2;
-    position: relative;
-    bottom: 470px;
-    right: 100px;
-  }
-}
-
 .utdanning {
   background-color: #FBA445;
 }
