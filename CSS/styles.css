@@ -6,7 +6,8 @@ body {
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 8rem;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   color: #973421;
 }
 
@@ -16,7 +17,7 @@ h1 {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 590px) {
   h1 {
     font-size: 4.5rem;
   }
@@ -24,13 +25,6 @@ h1 {
 
 h2 {
   color: #ac4b1c;
-}
-
-@media (max-width: 588px) {
-  h2 {
-    color: #5C2217;
-    padding-top: 40px;
-  }
 }
 
 h3 {
