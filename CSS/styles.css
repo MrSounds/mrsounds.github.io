@@ -78,9 +78,16 @@ html {
   .profilePicture {
     z-index: 1;
     opacity: 0.2;
-    width: 42rem;
-    display: block;
-    margin: 0 auto;
+  }
+}
+
+@media (max-width: 552px) {
+  .profilePicture {
+    z-index: 1;
+    opacity: 0.2;
+    position: relative;
+    bottom: 470px;
+    right: 100px;
   }
 }
 
