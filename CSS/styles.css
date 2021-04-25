@@ -91,8 +91,15 @@ html {
   background-color: #E27928;
 }
 
+.card {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
 .bg-primary {
   background-color: #FBA445 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .btn-primary, .btn-primary-focus .btn-primary:active, .btn-primary:visited {
